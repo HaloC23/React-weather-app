@@ -1,0 +1,159 @@
+body {
+  font-family: "Tenor Sans", sans-serif;
+  padding-top: 10px;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+form {
+  margin: 20px auto;
+}
+
+h1,
+h2,
+p {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #ffe5ab;
+  font-weight: bold;
+  position: relative;
+  line-height: 60px;
+}
+h2 {
+  color: #fcf876;
+  font-weight: bold;
+  position: relative;
+  line-height: 60px;
+}
+p {
+  color: #ff9642;
+  font-size: 26px;
+  font-weight: 900;
+  position: relative;
+}
+
+.time {
+  color: #1a1c20;
+}
+
+.City {
+  position: relative;
+  background-color: #ffe2e2;
+  padding: 5px;
+  border-color: #440047;
+}
+.btn-btn-success {
+  font-weight: bold;
+  color: #263238;
+  background-color: #ffa726;
+  position: relative;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  padding: 4px 7px;
+  transition: all 200ms ease;
+}
+.btn-btn-success:hover {
+  background-color: #fe7171;
+  color: #ffecb3;
+}
+.search-b {
+  font-weight: bold;
+  color: #263238;
+  background-color: #ffa726;
+  border-radius: 10px;
+  padding: 4px 7px;
+  margin-left: 10px;
+}
+.search-b:hover {
+  background-color: #fe7171;
+  transition: all 200ms ease;
+  color: #ffecb3;
+}
+
+.hightemp {
+  color: #cffffe;
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+}
+.degreeSym {
+  color: #eeeeee;
+  position: relative;
+  bottom: 08px;
+  font-size: 12px;
+}
+.lowtemp {
+  color: #eeeeee;
+  position: relative;
+  font-size: 16px;
+}
+.container {
+  text-align: center;
+
+  padding-bottom: 100px;
+}
+.future {
+  color: #ffe5ad;
+  font-weight: bold;
+  font-size: 26px;
+  position: relative;
+}
+
+.description {
+  color: #132743;
+  font-size: 22px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.temp {
+  color: #fca3cc;
+  line-height: 20px;
+  font-size: 18px;
+}
+.low-temp {
+  color: #bce6eb;
+  font-size: 16px;
+}
+.grid {
+  border: 5px solid;
+}
+
+.temperature,
+.celsius-link,
+.fahrenheit-link,
+.units {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: #440047;
+  font-size: 26px;
+  font-weight: 900;
+  position: relative;
+}
+
+.source {
+  color: black;
+  display: block;
+}
+
+.Weather {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.header .degreeSym {
+  color: white;
+  cursor: default;
+}
+.header .degreeSym:hover {
+  text-decoration: none;
+}

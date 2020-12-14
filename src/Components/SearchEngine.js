@@ -1,19 +1,25 @@
 import React, { useState } from "react";
 
 export default function SearchEngine() {
-  let [city, setCity] = useState("");
+  const [city, setCity] = useState("");
+  const [message, setMessage] = useState("");
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    setMessage(`It is currently 19°C in ${city}`);
+  }
 
   function newCity(event) {
-    event.preventDefault();
     setCity(event.target.value);
   }
 
   return (
-    <form>
-      <input type="Search" placeholder="Type city..." onChange={newCity} />
-      <input type="Submit" value="search" />
-      <br />
-      <strong> It is 19°C in {city}</strong>
-    </form>
+    <div className="SearchEngine">
+      <form onSubmit={handleSubmit}>
+        <input type="Search" placeholder="Type city..." onChange={newCity} />
+        <input type="Submit" value="search" />
+      </form>
+      <strong> {message}</strong>
+    </div>
   );
 }

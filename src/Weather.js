@@ -16,13 +16,13 @@ export default function Weather() {
       <div className="row">
         <div className="col">
           <div className="header">
-            <img src={weatherData.imgUrl} className="icon" />
+            <img src={weatherData.imgUrl} className="icon" alt="" />
             <h1 className="Main-city">{weatherData.city}</h1>
             <h2>
               {weatherData.date}
               <div className="time">{weatherData.time}</div>
             </h2>
-            <p className="Description1">{weatherData.description}y</p>
+            <p className="Description1">{weatherData.description}</p>
 
             <div>
               {" "}

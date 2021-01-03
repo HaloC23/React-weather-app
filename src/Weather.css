@@ -1,6 +1,12 @@
+.Weather {
+  border: 2px solid #0f3057;
+  border-radius: 155px;
+  margin-bottom: 155px;
+}
+
 body {
   font-family: "Tenor Sans", sans-serif;
-  padding-top: 10px;
+  padding-top: 30px;
   background-image: linear-gradient(
     to right,
     #b8cbb8 0%,
@@ -11,14 +17,16 @@ body {
     #ee609c 100%
   );
 }
+.weather SearchCity {
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: 15px;
 
-.header {
+  background-color: #ffe8d6;
+}
+.weather header {
   margin: 20px auto;
   text-align: center;
-}
-
-form {
-  margin: 20px auto;
 }
 
 h1,
@@ -29,7 +37,7 @@ p {
   text-align: center;
 }
 
-h1 {
+.Main-city {
   color: #ffe5ab;
   font-weight: bold;
   position: relative;
@@ -47,7 +55,7 @@ h2 {
   font-family: serif;
   color: whitesmoke;
 }
-p {
+.MainDescription {
   color: #ff9642;
   font-size: 26px;
   font-weight: 900;
@@ -55,41 +63,22 @@ p {
 }
 
 .time {
-  color: #1a1c20;
+  color: #65d6ce;
 }
 
-.City {
-  position: relative;
-  background-color: #ffe2e2;
-  padding: 5px;
-  border-color: #440047;
-}
 .btn-btn-success {
   font-weight: bold;
   color: #263238;
   background-color: #ffa726;
   position: relative;
   margin-bottom: 50px;
-  border-radius: 10px;
-  padding: 4px 7px;
+  border-radius: 15px;
+  padding: 5px 9px;
   transition: all 200ms ease;
 }
 .btn-btn-success:hover {
-  background-color: #fe7171;
-  color: #ffecb3;
-}
-.search-b {
-  font-weight: bold;
-  color: #263238;
-  background-color: #ffa726;
-  border-radius: 10px;
-  padding: 4px 7px;
-  margin-left: 10px;
-}
-.search-b:hover {
-  background-color: #fe7171;
-  transition: all 200ms ease;
-  color: #ffecb3;
+  background-color: #bae8e8;
+  color: #474f85;
 }
 
 .hightemp {
@@ -111,7 +100,6 @@ p {
 }
 .container {
   text-align: center;
-
   padding-bottom: 100px;
 }
 .future {
@@ -149,15 +137,10 @@ p {
   display: block;
   margin: auto;
   text-align: center;
-  color: #440047;
-  font-size: 26px;
+  color: #ffabe1;
+  font-size: 18px;
   font-weight: 900;
   position: relative;
-}
-
-.source {
-  color: black;
-  display: block;
 }
 
 .Weather {

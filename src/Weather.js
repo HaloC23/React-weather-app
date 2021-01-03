@@ -22,21 +22,21 @@ export default function Weather() {
               {weatherData.date}
               <div className="time">{weatherData.time}</div>
             </h2>
-            <p className="Description1">{weatherData.description}</p>
+            <p className="MainDescription">{weatherData.description}</p>
 
             <div>
               {" "}
-              <strong className="hightemp">{weatherData.temperature}</strong>
-              <small>
+              <strong className="hightemp">
+                {weatherData.temperature}
+              </strong>{" "}
+              <a href="/" className="celsius-link">
+                °C{" "}
+              </a>{" "}
+              |{" "}
+              <a href="/" className="fahrenheit-link">
                 {" "}
-                <a href="/" className="celsius-link">
-                  °C{" "}
-                </a>{" "}
-                |{" "}
-                <a href="/" className="fahrenheit-link">
-                  °F{" "}
-                </a>{" "}
-              </small>
+                °F{" "}
+              </a>{" "}
             </div>
           </div>
         </div>

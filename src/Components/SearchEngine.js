@@ -16,8 +16,18 @@ export default function SearchEngine() {
   return (
     <div className="SearchEngine">
       <form onSubmit={handleSubmit}>
-        <input type="Search" placeholder="Type city..." onChange={newCity} />
-        <input type="Submit" value="search" readOnly />
+        <input
+          type="Search"
+          placeholder="Type city..."
+          onChange={newCity}
+          className="SearchCity"
+        />
+        <input
+          type="Submit"
+          value="Search"
+          readOnly
+          className="btn-btn-success"
+        />
       </form>
       <strong> {message}</strong>
     </div>

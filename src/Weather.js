@@ -25,10 +25,7 @@ export default function Weather() {
             <p className="MainDescription">{weatherData.description}</p>
 
             <div>
-              {" "}
-              <strong className="hightemp">
-                {weatherData.temperature}
-              </strong>{" "}
+              <strong className="hightemp">{weatherData.temperature}</strong>{" "}
               <a href="/" className="celsius-link">
                 °C{" "}
               </a>{" "}

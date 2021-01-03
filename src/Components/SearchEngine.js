@@ -18,9 +18,10 @@ export default function SearchEngine() {
       <form onSubmit={handleSubmit}>
         <input
           type="Search"
-          placeholder="Type city..."
+          placeholder=" Please enter a city..."
           onChange={newCity}
           className="SearchCity"
+          autoFocus="on"
         />
         <input
           type="Submit"

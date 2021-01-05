@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import FormattedDate from "./FormattedDate";
-import WeatherIcon from "./Components/WeatherIcon";
-import WeatherTemp from "./Components/WeatherTemp";
+import Icon from "./Icon";
+import WeatherTemp from "./WeatherTemp";
 
 export default function WeatherDisplay(props) {
   return (
@@ -9,7 +9,10 @@ export default function WeatherDisplay(props) {
       <div className="row">
         <div className="col">
           <div className="header">
-            <img src={props.data.icon} className="icon" alt="weatherIcon" />
+            <div className="float-left">
+              <Icon code={props.data.icon} />
+            </div>
+
             <h1 className="Main-city">{props.data.city}</h1>
             <h2>
               <FormattedDate date={props.data.date} />

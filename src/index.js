@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 const rootElement = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
-    <Weather />
+    <Weather defaultCity="London" />
     <SearchEngine />
     <Footer />
   </React.StrictMode>,

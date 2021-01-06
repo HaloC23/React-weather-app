@@ -8,8 +8,8 @@ export default function Forecast(props) {
   const [forecast, setForecast] = useState(null);
 
   function showForecast(response) {
-    setLoaded(true);
     setForecast(response.data);
+    setLoaded(true);
   }
   if (loaded && props.city === forecast.city.name) {
     return (

@@ -9,14 +9,14 @@ export default function HourlyForecast(props) {
   }
 
   function temperature() {
-    let temperature = Math.round(props.list[0].main.temp);
+    let temperature = Math.round(props.data.main.temp);
     return `${temperature}°C`;
   }
 
   return (
     <div className=" ForecastPreview col">
       {hours()}
-      <Icon code={props.list[0].weather[0].icon} />
+      <Icon code={props.data.weather[0].icon} />
       {temperature()}
     </div>
   );

@@ -1,8 +1,8 @@
 import React from "react";
-import ReactanimatedWeather from "react-animated-weather";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Icon(props) {
-  codeMapping = {
+  let codeMapping = {
     "01d": "CLEAR_DAY",
     "01n": "CLEAR_NIGHT",
     "02d": "PARTLY_CLOUDY_DAY",

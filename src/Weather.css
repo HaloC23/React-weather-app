@@ -1,12 +1,7 @@
-.Sear {
+.WeatherDisplay {
   border: 2px solid #0f3057;
-  border-radius: 155px;
-  margin-bottom: 155px;
-}
-
-body {
-  font-family: "Tenor Sans", sans-serif;
-  padding-top: 30px;
+  border-radius: 75px;
+  box-sizing: 500px 60px;
   background-image: linear-gradient(
     to right,
     #b8cbb8 0%,
@@ -16,6 +11,12 @@ body {
     #ee609c 66%,
     #ee609c 100%
   );
+}
+
+body {
+  font-family: "Tenor Sans", sans-serif;
+  padding-top: 30px;
+  background: black;
 }
 .weather SearchCity {
   padding: 5px;
@@ -37,7 +38,7 @@ p {
   text-align: center;
 }
 
-.Main-city {
+.MainCity {
   color: #ffe5ab;
   font-weight: bold;
   position: relative;
@@ -60,6 +61,7 @@ h2 {
   font-size: 26px;
   font-weight: 900;
   position: relative;
+  text-transform: capitalize;
 }
 
 .time {

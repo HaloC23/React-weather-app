@@ -7,20 +7,18 @@ export default function WeatherDisplay(props) {
   return (
     <div className="WeatherDisplay">
       <div className="row">
-        <div className="float-left">
-          <Icon code={props.data.icon} />
-        </div>
+        <Icon code={props.data.icon} />
+      </div>
 
-        <div className="col">
-          <div className="header">
-            <h1 className="MainCity">{props.data.city}</h1>
-            <h2>
-              <FormattedDate date={props.data.date} />
-            </h2>
-            <p className="MainDescription">{props.data.description}</p>
+      <div className="col">
+        <div className="header">
+          <h1 className="MainCity">{props.data.city}</h1>
+          <h2>
+            <FormattedDate date={props.data.date} />
+          </h2>
+          <p className="MainDescription">{props.data.description}</p>
 
-            <WeatherTemp celsius={props.data.temperature} />
-          </div>
+          <WeatherTemp celsius={props.data.temperature} />
         </div>
       </div>
     </div>

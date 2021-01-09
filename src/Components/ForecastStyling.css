@@ -1,14 +1,8 @@
 .WeatherForecast {
   color: #67b389;
   padding: 50px;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
   margin: 20px 0;
-}
-.WeatherForecast canvas {
-  display: block;
-}
-
-.Time {
-  color: red;
 }

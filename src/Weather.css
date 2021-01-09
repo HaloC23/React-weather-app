@@ -1,22 +1,25 @@
-.WeatherDisplay canvas {
-  position: relative;
-  top: 17px;
-  left: 350px;
-}
-
-.WeatherDisplay {
-  border: 2px solid#9A464E;
-  border-radius: 75px;
-  box-sizing: border-box;
-  padding-left: 20px;
-
-  background-color: #f8ecb2;
-}
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
+.WeatherDisplay canvas {
+  position: relative;
+  top: 55px;
+  left: 300px;
+}
+
+.WeatherDisplay {
+  border: 10px solid#9A464E;
+  border-radius: 75px;
+  box-sizing: border-box;
+  padding-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #f8ecb2;
+}
+
 body {
   font-size: 100%;
   font-family: "Tenor Sans", sans-serif;
@@ -28,6 +31,9 @@ body {
   margin-right: 5px;
   border-radius: 15px;
   background-color: #ffe8d6;
+  border: 10px solid #29817f;
+  border-radius: 75px;
+  box-sizing: border-box;
 }
 
 h1,
@@ -39,7 +45,7 @@ p {
 }
 
 .MainCity {
-  padding-top: 40px;
+  padding-top: 10px;
   color: #5c303d;
   font-weight: bold;
   position: relative;
@@ -52,10 +58,11 @@ h2 {
   line-height: 60px;
 }
 .CodedBy {
-  padding-top: 20px;
-  font-size: 15px;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 20px;
   font-family: serif;
-  color: whitesmoke;
+  color: #e5e1a6;
 }
 .MainDescription {
   color: #ff9642;
@@ -63,6 +70,11 @@ h2 {
   font-weight: 900;
   position: relative;
   text-transform: capitalize;
+}
+form {
+  position: relative;
+  top: 30px;
+  left: 360px;
 }
 
 .btn-btn-success {
@@ -78,12 +90,13 @@ h2 {
 }
 .btn-btn-success:hover {
   background-color: #c32d14;
-  color: #979681;
+  color: #e5e1a6;
 }
 
 .SearchCity {
+  border-width: 4px;
   border-radius: 15px;
-  border-color: #9a464e;
+  border-color: #317d81;
   padding: 5px 9px;
   background-color: white;
 }
@@ -91,7 +104,7 @@ h2 {
 .hightemp {
   color: #ec7553;
   position: relative;
-  font-size: 22px;
+  font-size: 26px;
   font-weight: bold;
 }
 
@@ -103,10 +116,4 @@ h2 {
 .container {
   text-align: center;
   padding-bottom: 100px;
-}
-.future {
-  color: #ffe5ad;
-  font-weight: bold;
-  font-size: 26px;
-  position: relative;
 }

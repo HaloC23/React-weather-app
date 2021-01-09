@@ -26,10 +26,10 @@ export default function Icon(props) {
   return (
     <ReactAnimatedWeather
       icon={codeMapping[props.code]}
-      color="#FFEEBB"
-      size={50}
+      color="#E6771B"
+      size={80}
       animate={true}
     />
   );
 }
-//Canvas for styling.
+//Canvas for styling. #67B389

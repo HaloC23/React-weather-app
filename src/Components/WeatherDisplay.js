@@ -8,7 +8,7 @@ export default function WeatherDisplay(props) {
     <div className="WeatherDisplay">
       <div className="row">
         <div className="float-left">
-          <Icon code={props.data.icon} className="BigIcon" />
+          <Icon code={props.data.icon} />
         </div>
 
         <div className="col">

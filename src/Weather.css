@@ -23,7 +23,9 @@
   background-image: url("https://images.pexels.com/photos/2440061/pexels-photo-2440061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-size: 100%;
   background-repeat: no-repeat;
+  border: 15px solid #48426d;
   padding: 10em;
+
   border-radius: 15%;
 }
 body {
